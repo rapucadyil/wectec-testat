@@ -1,0 +1,70 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Play');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+/* ====================== header ======================*/
+
+header {
+    /*position: absolute;*/
+    margin-top: 1em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin: 2em;   /* maybe change this value a little later */
+    display: inline-block;
+}
+
+header {
+    background: slategrey;
+    color: white;
+    font-weight: 900;
+    /*font-size: 2em;*/
+    padding: 5em;
+}
+
+.unselectable-button {
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5em;
+   /* background: steelblue;*/
+    color: white;
+}
+
+.unselectable-button:hover,
+.unselectable-button:focus{
+    color:#DDD;
+}
+
+.home {
+    background: antiquewhite;
+    padding: 8em;
+}
+
+button {
+    border: none;
+}
+/* Making the text unselectable so it looks like a button */
+.unselectable-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
